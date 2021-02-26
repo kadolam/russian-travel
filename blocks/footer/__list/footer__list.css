@@ -1,0 +1,9 @@
+@media screen and (max-width: 710px) {
+    .footer__list {
+        margin-bottom: 34px;
+    }
+
+    .footer__list:last-of-type {
+        margin-bottom: 48px;
+    }
+}

@@ -1,0 +1,38 @@
+.place {
+    display: grid;
+    grid-area: auto;
+    grid-template-areas:
+        "title website"
+        "image paragraph";
+    grid-gap: 48px 40px;
+    padding-bottom: 80px;
+}
+
+.place:last-of-type {
+    padding-bottom: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .place {
+        grid-gap: 48px 32px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place {
+        grid-gap: 48px 28px;
+        padding-bottom: 73px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .place {
+        grid-template-areas:
+            "title"
+            "website"
+            "image"
+            "paragraph";
+        grid-gap: 32px;
+        padding-bottom: 50px;
+    }
+}
