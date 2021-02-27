@@ -8,6 +8,8 @@
     flex-direction: column;
     justify-content: center;
     transition: opacity 1s linear 0.3s;
+    background-image: url(../../../images/cover-trains.jpg);
+    background-size: cover;
 }
 
 .cover__link:hover {
