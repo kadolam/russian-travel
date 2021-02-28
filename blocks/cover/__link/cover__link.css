@@ -10,9 +10,10 @@
     transition: opacity 1s linear 0.3s;
     background-image: url(../../../images/cover-trains.jpg);
     background-size: cover;
+    background-position: center;
 }
 
-.cover__link:hover {
+.cover__link:hover .cover__background {
     opacity: 0.8;
 }
 
